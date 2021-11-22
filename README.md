@@ -26,40 +26,9 @@ https://yelpcamp-vijay1.herokuapp.com/
 - **MongoDB** - open-source cross-platform document-oriented NoSQL database program to store details like users info, campgrounds info and comments  
 - **PassportJS** - authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application  
 - **Data Associations** - associating user data with the respective campgrounds and comments using reference method  
-- **Heroku** - cloud platform as a service used as a web application deployment model  
 - **AWS** - mongodb is hosted on amazon ec2 instance  
 
 
-## Homepage
-Changing background that fades away making space for a new background to show.
-
-![Alt text](images/homepage1.png?raw=true)  
-
-![Alt text](images/homepage2.png?raw=true)  
-
-## Show all Campgrounds
-![Alt text](images/campgrounds.png?raw=true) 
-
-## Selected Campground
-![Alt text](images/selected_campground.png?raw=true)  
-
-## Sign Up
-![Alt text](images/signup.png?raw=true)  
-
-## Log in
-![Alt text](images/login.png?raw=true)  
-
-## Add new campground
-![Alt text](images/addnewcampground.png?raw=true)  
-
-## Add new comment
-![Alt text](images/addnewcomment.png?raw=true)  
-
-
-## Deployment:
-
-- In the app.js use - > mongoose.connect('mongodb://localhost/yelp_camp'); (if mongodb is running on localhost).  
-- I have used -> mongoose.connect(process.env.DATABASEURL); and have set DATABASEURL as environment variable in my heroku to maintain security.
 
 
 
